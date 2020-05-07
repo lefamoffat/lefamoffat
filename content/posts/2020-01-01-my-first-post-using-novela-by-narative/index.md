@@ -12,7 +12,7 @@ My first post using `@narative/gatsby-theme-novela`. Novela is built by the team
 
 # H1
 
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
+It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2. Hallo
 
 ## H2
 
@@ -40,11 +40,11 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 2. Another item
 3. Actual numbers don't matter, just that it's a number
 
-- Unordered list can use asterisks
+-   Unordered list can use asterisks
 
-* Or minuses
+*   Or minuses
 
-- Or pluses
+-   Or pluses
 
 ## Links
 
@@ -101,8 +101,8 @@ import React from "react";
 import { ThemeProvider } from "theme-ui";
 import theme from "./theme";
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
+export default (props) => (
+	<ThemeProvider theme={theme}>{props.children}</ThemeProvider>
 );
 ```
 
